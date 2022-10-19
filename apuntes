@@ -12,3 +12,15 @@ GIT:
         git fetch && git checkout develop
 
     
+    > git push [repo remoto] [rama que queremos subir]
+
+
+WEB API: 
+    librerías que no son de js
+
+MODULO:
+    SE CREA EN PROYECTO
+
+PAQUETE:
+    SE BAJA DE INTERNET (Se reutiliza)
+
