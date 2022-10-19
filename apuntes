@@ -1,0 +1,13 @@
+Generar llave para conexión ssh
+    1.- cd ~/.ssh
+    2. Generar clave $ ssh-keygen
+    3.- ssh-keygen
+
+    Configurar en perfil > settings > agregar New SSH key
+
+GIT:
+
+    > Traer cambios de cierta rama:
+        git pull origin develop
+        git fetch && git checkout develop
+
