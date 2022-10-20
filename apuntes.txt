@@ -67,3 +67,12 @@ GIT
         la legibilidad y poder tener herramientas que 
         automaticen procesoso basado en historial de commits
 
+
+instalar:
+-----------------------------------
+create react app
+    npm -i -g react 
+
+
+INTRO BABEL
+-----------------------------------
