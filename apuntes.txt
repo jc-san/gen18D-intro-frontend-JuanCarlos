@@ -1,0 +1,69 @@
+REPO PRESENTACIONES:
+https://drive.google.com/drive/u/0/folders/1ioW9pgR71OIJTiLDrXqNv3XgPv9IulhQ
+
+
+Generar llave para conexión ssh
+    1.- cd ~/.ssh
+    2. Generar clave $ ssh-keygen
+    3.- ssh-keygen
+
+    Configurar en perfil > settings > agregar New SSH key
+
+GIT:
+
+    > Traer cambios de cierta rama:
+        git pull origin develop
+        git fetch && git checkout develop
+
+    
+    > git push [repo remoto] [rama que queremos subir]
+
+
+WEB API: 
+    librerías que no son de js
+
+MODULO:
+    SE CREA EN PROYECTO
+
+PAQUETE:
+    SE BAJA DE INTERNET (Se reutiliza)
+
+CONTRATO API
+    Reglas que se proponen para el  recurso que
+    se expone (URL, verbo, params, body)
+
+NODEMON
+    node + demon
+
+SEMANTIC VERSIONING
+     1   .   2    .  3      beta.1      + data
+    mayor + minor + patch  | pre-release | metadata
+
+    mayor: cambio incompatible en el PROYECTO
+    menor: añadir funcionalidad que sea compatible conexión
+            otras versiones
+    patch: errores compatibles con versiones anteriores
+
+    ^:  circunflejo (potencia)
+        actualiza versión minor.patch
+
+package.json
+    snapchot de lo que había en ese momento al instalar
+    dependencias.
+
+GESTORES DE DEPENDENCIAS
+    JS -> npm(packaje.json)
+    java -> gradle
+
+GIT
+    commit atomico: 
+        Enfocado a subir una sola cosa, puede
+        ser un feature, resolver bug, refactr, act, etc.
+        Ejemplo dejarlo por secciones por si una falla
+        solo ir a esa
+
+    commit convencional:
+        formato en los mensajes de commits. Hace mas sencilla
+        la legibilidad y poder tener herramientas que 
+        automaticen procesoso basado en historial de commits
+
