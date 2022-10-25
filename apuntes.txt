@@ -74,5 +74,78 @@ create react app
     npm -i -g react 
 
 
-INTRO BABEL
+YARN
 -----------------------------------
+Administrador de dependencias de js.
+ ES multiple registro, descarga de bower y npm
+
+CDN:
+    Contenet delivery network
+
+WEBPACK
+-----------------------------------
+    - Convierte a html, css, js
+    
+LINTERS
+-----------------------------------
+    -
+
+LIBRERIA VS FRAMEWORK
+-----------------------------------
+    LIBRERIA: Enfocado a un problea
+    FRAMEWORK: Resolver conjunto de problemas
+
+
+JSX
+-----------------------------------
+    Extensión js, crear DOm virutal (árbol DOM)
+    - databinfing unidireccional: flujo de datos en un solo sentido
+    Evita renderizar el DOM cada vez que haya un cambio 
+
+STACK TECNOLOGICO
+-----------------------------------
+    - Conjunto de tecnologías
+    - El stack seria conjunto de tecnologías 
+        (angular, node, express, mongo, etc) y framework 
+        serian herramientas que resuelven las necesidades 
+        de un area en especifico (angular para el front)
+
+COMANDOS NODE
+-----------------------------------
+    npm install -g npm@latest
+
+    BORRAR CACHE:
+        npm cache clear --force
+
+    INSTALAR react
+        npm i -g create-react-app
+
+    REVISAR VULNERABILDADES INSTALADAS
+        npm audit
+
+    FORZAR A UTILIZAR LAS VERSIONES
+        npm audit fix --force
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Tutorial git
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+https://rogerdudler.github.io/git-guide/index.es.html
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+24 / OCT /2022
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+cREATE-REACT-APP: pauqete en el que podemos instalar global react
+
+
+Empezar app:
+    1.- npx create-react-app 3-create-react-app
+    2.- npm start
+
