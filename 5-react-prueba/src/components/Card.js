@@ -1,18 +1,3 @@
-const teams = [
-  {
-    name: 'Charmander',
-    level: 24,
-  },
-  {
-    name: 'Bulbasaur',
-    level: 30,
-  },
-  {
-    name: 'x',
-    level: 31,
-  },
-]
-
 function Card({ trainer }) {
   return (
     <>
