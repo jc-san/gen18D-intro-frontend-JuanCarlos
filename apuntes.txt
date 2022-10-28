@@ -203,3 +203,7 @@ figma
 
 git reset --hard
     regresar commit
+
+Destructuring:
+    asignar valor de objeto a variales;
+        const { name, app } = obj;
