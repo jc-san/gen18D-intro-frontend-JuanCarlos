@@ -1,21 +1,19 @@
 {
-  "name": "1.2-api-express",
+  "name": "ejemplo-api-express",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "}",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "JC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jc-san/gen18D-intro-frontend-JuanCarlos.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "colors": "^1.4.0",
-    "create-react-app": "^5.0.1",
-    "express": "^4.18.2"
+  "bugs": {
+    "url": "https://github.com/jc-san/gen18D-intro-frontend-JuanCarlos/issues"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  }
+  "homepage": "https://github.com/jc-san/gen18D-intro-frontend-JuanCarlos#readme"
 }

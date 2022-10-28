@@ -93,7 +93,8 @@ LINTERS
 LIBRERIA VS FRAMEWORK
 -----------------------------------
     LIBRERIA: Enfocado a un problea
-    FRAMEWORK: Resolver conjunto de problemas
+    FRAMEWORK: Resolver conjunto de problemas, 
+        con modulos y tecnologías
 
 
 JSX
@@ -147,5 +148,58 @@ cREATE-REACT-APP: pauqete en el que podemos instalar global react
 
 Empezar app:
     1.- npx create-react-app 3-create-react-app
+    3.- ir a carpeta 3-create-react-app
     2.- npm start
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+25 / OCT /2022
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+    Estado: Punto en el ciclo de vida del compoenente, activo, pausado,
+        hay uno que son estaticos y van en otra carpeta
+
+
+- Crear proyecto "components"
+- Eliminar del encarpetado:
+    > index.css
+    > app.css
+    > App.text.js
+    > logo.svg
+    > reportWebVitals.js
+    > setupTest.js
+- De index quitar lo que se borró
+
+
+Librería para estilos
+    npm install --save styled-components
+
+****************
+reset registry *
+****************
+        npm config list 
+        
+        npm config set registry https://registry.npmjs.org/
+
+        npm config set registry <registry url>
+
+        npm install --registry=<registry url>
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+27 / OCT /2022
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Asesioria Domingo 6 Nov  11-2
+
+:root 
+    Pseudoclase que se utiliza para declarar variables
+
+repo:
+    https://github.com/montoyaguzman/gen18d-intro-front-end.git
+
+figma
+    maquetado de pagina
+    hoja de papel
+
+git reset --hard
+    regresar commit
