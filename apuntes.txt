@@ -216,6 +216,10 @@ Extensión react en chrome
     React Developer Tools
 
 
+    - los props son para pasar data y solo pintar
+    - Los state son para actualizar info en pantalla
+
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 1 / NOV /2022
