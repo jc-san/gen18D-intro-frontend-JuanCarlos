@@ -207,3 +207,73 @@ git reset --hard
 Destructuring:
     asignar valor de objeto a variales;
         const { name, app } = obj;
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+1 / NOV /2022
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Crear api:
+    npx create-react-app 7-rick-and-morty-api
+
+Instalar mensajes:
+    npm install sweetalert2
+
+
+        Inside that directory, you can run several commands:
+
+        npm start
+            Starts the development server.
+
+        npm run build
+            Bundles the app into static files for production.
+
+        npm test
+            Starts the test runner.
+
+        npm run eject
+            Removes this tool and copies build dependencies, configuration files
+            and scripts into the app directory. If you do this, you can’t go back!
+
+        We suggest that you begin by typing:
+
+        cd 7-rick-and-morty-api
+        npm start
+
+        Happy hacking!
+
+Snipped react
+    react js snippets
+
+    - Crear compoenente:  en archivo rafc
+
+export component
+    enf
+
+borrar node_modules:
+    - instalar
+        npm install -g rimraf
+    
+    - ir a la carpeta padre:
+        rimraf node_modules
+
+
+api:
+
+    https://rickandmortyapi.com/documentation/#filter-characters
+
+
+    character
+     - character schema
+
+iconos:
+    iconos8.es
+
+material ui
+    npm install @mui/material @emotion/react @emotion/styled
+    npm install @mui/material @emotion/react @emotion/styled --legacy-peer-deps
+
+
+Subir proyecto:
+    netlify
